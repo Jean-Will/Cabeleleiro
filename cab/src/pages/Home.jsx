@@ -1,7 +1,7 @@
 import React from 'react'
 import ServicesSection from '../components/ServicesCarrousel'
 import ContactSection from '../components/ContactSection'
-
+import MapSection from '../components/MapSection'
 
 export default function Home() {
   return (
@@ -44,8 +44,12 @@ export default function Home() {
 
       {/* SERVICES */}
       <ServicesSection />
+
       {/*CONTACT */}
       <ContactSection />
+      
+      {/* MAPS */}
+      <MapSection/>
 
 
     </div>

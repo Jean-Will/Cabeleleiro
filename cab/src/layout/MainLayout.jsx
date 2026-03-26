@@ -8,7 +8,7 @@ export default function MainLayout({ children }) {
       <header className="boorder-b bg-white">
         <div className="max-w-5xl mx-auto px-4 py-2 flex items-center justify-between">
             <span className="font-semibold text-lg">Salao de Cabeleleiro </span>
-            <nav className="space-x-4 text-sm">
+            <nav className="hidden md:flex space-x-4 text-sm">
                 <a href="#home" className="text-slate-700 hover:text-slate-900">Home</a>
                 <a href="#about" className="text-slate-700 hover:text-slate-900">About</a>
                 <a href="#services" className="text-slate-700 hover:text-slate-900">Services</a>
