@@ -1,4 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import corteFemin from "../imgs/minucelli_.jpg";
 
@@ -31,8 +32,14 @@ function ServicesSection() {
         </p>
 
         <Swiper
+          modules={[Autoplay]}
           spaceBetween={16}
           slidesPerView={1}
+          loop={true}
+          autoplay={{
+            delay: 1500,
+            disableOnInteraction: false,
+          }}
           breakpoints={{
             640: { slidesPerView: 2 },
             1024: { slidesPerView: 3 },
